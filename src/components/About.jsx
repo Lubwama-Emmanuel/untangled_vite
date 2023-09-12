@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Heading from "../ui/Heading";
 import AppSection from "../ui/AppSection";
 import Separator from "../ui/Separator";
@@ -33,9 +33,9 @@ export default function About() {
         </div>
         <div className="mb-16 flex justify-center">
           <h2 className="w-[90%] rounded-lg border border-blue-800 py-3 text-center text-2xl font-bold text-blue-800 underline transition-all duration-200 hover:scale-105 sm:w-[30%] sm:py-2">
-            <Link onClick={scrollToTop} to="/mitch">
+            <NavLink onClick={scrollToTop} to="/mitch">
               Learn more about Dr. Mitch
-            </Link>
+            </NavLink>
           </h2>
         </div>
       </div>
