@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom";
 import Heading from "../ui/Heading";
 import AppSection from "../ui/AppSection";
